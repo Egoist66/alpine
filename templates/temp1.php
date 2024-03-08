@@ -42,7 +42,7 @@
             type="text"
         
         >
-        <div x-bind:class="{'hidden': open}" class="hidden text" x-text="count" class="out">0</div>
+        <div  x-bind:class="{'hidden': open}" class="hidden text" x-text="count" class="out">0</div>
         <div x-html="html"></div>
 
         <div x-data="{
